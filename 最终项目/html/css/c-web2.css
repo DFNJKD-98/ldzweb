@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0}
+.clear{clear: both}
+
+.big-box{background: rgba(245,245,245,1.00);width: 100%;}
+.box{width: 1380px;text-align: center;margin: 0 auto;}
+
+.box .title h1{font-size: 30px;padding: 33px 0 25px 0;margin: auto;font-weight: normal;}
+.box .same{text-align: center;width: 180px;height:325px;float: left;margin-left: 15px;background: #FFFFFF;position: relative;}
+.box .same .qwrb{font-size: 12px;line-height: 22px;padding: 0 5px;background: #FF8D06;color: #FFFFFF;position: absolute;left: 0;top: 0;width: 48px;height: 22px;cursor: pointer;}
+.box .same .pf{font-size: 14px;color: #FFFFFF;padding: 0 12px 8px 0;position: absolute;right: 0;bottom: 70px;cursor: pointer;}
+.box .same .text{margin: 10px auto 10px;text-decoration: none;color: rgba(46,46,46,1.00);font-size: 18px;display: block;transition:all 0.2s;}
+.box .same .text:hover{transform: scale(1.06);color: #4794D8;}
+.box .same .only{line-height: 10px;font-size: 14px;color: #B1B1B1}
+.box .same a img{transition: all 0.4s}
+.box .same a img:hover{transform: scale(1.02)}
+
+/*.box .last1{border:#504F4F 1px solid;border-radius: 99px;font-size: 16px;width: 156px;height: 34px;line-height: 34px;margin:40px 20px 30px 520px;float: left;color:#504F4F}
+.box .last1:hover{color: #FFFFFF;background: #3B9EC5}
+.box .last2{border: #504F4F 1px solid;border-radius: 99px;font-size: 16px;width: 156px;height: 34px;line-height: 34px;margin-top: 40px;float: left;color: #504F4F}
+.box .last2:hover{color: #FFFFFF;background: #3B9EC5}
+*/
+.more{width: 400px;margin: 0 auto;text-align: center;height: 106px;}
+.more a{text-decoration: none;border: 1px solid #767575;border-radius: 99px;display: block;width: 156px;height: 36px;text-align: center;line-height: 36px;color:#8B8B8B;transition:all 0.5s;float: left;margin: 40px 20px 30px 20px;}
+.more a:hover{color:#FFFFFF;background:rgba(95,127,175,1.00);transform: scale(1.1)}
+
+.box .fri{font-size: 16px;margin: 14px 0;text-align: left}
+.box .link{text-align: left;padding-bottom: 12px;height: 50px}
+.box .link a{text-decoration: none;color:#504F4F;font-size: 16px;margin-right: 80px;}
+.box .link a:hover{color: #25A9C7}
+
+.tail1{background: rgba(32,35,44,1);height: 190px;}
+.tail1 .para{width:1380px;margin:0 auto;}
+.tail1 .para img{margin: 20px 0;height: 30px;}
+.tail1 .para span{font-size: 12px;color: #D5D5D5;margin:0 36px 12px 0;display: block;float: left;}
+.tail1 .para a span:hover{color:#4794D8;}
+.tail1 .para a p{font-size: 12px;margin-right: 23px;color: #525766;float: left;margin-bottom: 12px;}
+.tail1 .para a p:hover{color: #4794D8;}
+.tail2{background: #282C37;height: 60px;}
+.tail2 .para{width: 1380px;margin:0 auto;}
+.tail2 .para p{font-size: 12px;color: #72747C;float: left;margin-right: 23px;}
+.tail2 .para .p1{color:#4794D8;line-height: 60px;}
+.tail2 .para .p2{border-right: 1px solid #72747C;height: 16px;margin:22px 12px 26px 0;padding-right: 10px;line-height: 16px;}
+.tail2 .para .p3{line-height: 60px;}
+.tail2 .para .p3:hover{color: #4794D8;}
+
+
+
+
+

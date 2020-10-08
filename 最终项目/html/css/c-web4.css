@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0}
+.link{text-decoration: none;color: #000000;display: block;}
+.clear{clear: both;}
+
+.web4-box{width: 1380px;margin: 0 auto;}
+.web4-box-title{width: 140px;height: 60px;margin: 33px auto 25px auto;}
+.web4-box-title p{font-size: 30px;line-height:60px;}
+
+.web4-box-l{width: 1000px;height: 436px;float: left;}
+.web4-box-l .part{width: 312px;height: 225px;float: left;margin-left: 20px;position: relative;}
+.web4-box-l .part a img{width: 312px;transition: all 0.6s;}
+.web4-box-l .part a img:hover{transform: scale(1.02)}
+.web4-box-l .part span{display: block;width: 312px;height: 169.65px;background:rgba(255,255,255,0.1);position: absolute;top: 0;display: none;transition: all 0.6s;cursor: pointer;}
+.web4-box-l .part:hover a img{transform: scale(1.02);}
+.web4-box-l .part:hover span{display: block;transform: scale(1.02)}
+.web4-box-l .part .bf{background-image: url("../img/../img/bf-36.png");position: absolute;left: 8px;top: 127px;width: 36px;height: 36px;opacity:0.90;cursor: pointer;}
+.web4-box-l .part:hover .bf{opacity: 0.5;}
+.web4-box-l .part .time{width: 42px;height: 24px;color: #FFFFFF;background: #000000;border-radius: 20px;font-size: 16px;line-height: 24px;padding: 0 5px;position: absolute;top: 8px;right: 8px;cursor: pointer;}
+
+.web4-box-l .part a p{font-size: 14px;padding-top: 12px;margin: 0 auto;text-align: center;}
+.web4-box-l .part a p:hover{color: #1291C9;}
+
+.web4-box-r{width: 370px;height: 391px;float: left;margin-left: 10px;}
+.web4-box-r .same a:hover p{color: #2490DB}
+.web4-box-r .same ul a:hover li{color: #2490DB}
+.web4-box-r .same a p{font-size: 20px;color: #8C4C30;padding: 5px 0 13px;}
+.web4-box-r .same ul li{list-style: none;font-size: 15px;color: #333333;padding: 9px 0;float: left;height: 16px;width: 350px;line-height: 16px;}
+.web4-box-r .same .square{width: 4px;height: 4px;background: #DDDDDD;margin:13px 10px 0 0;float: left;}
+
+.more a{text-decoration: none;border: 1px solid #767575;border-radius: 99px;margin: 37px auto;display: block;width: 156px;height: 36px;text-align: center;line-height: 36px;color:#8B8B8B;transition:all 0.5s}
+.more a:hover{color:#FFFFFF;background:rgba(95,127,175,1.00);transform: scale(1.1)}

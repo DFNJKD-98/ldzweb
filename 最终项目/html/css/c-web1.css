@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0}
+.clear{clear:both}
+.mark{float: left;margin:0 6px 0 20px;}
+.big-box{width:100%;background:rgba(245,245,245,1.00);margin-top: 30px}
+.big-box .box{width:1380px;padding:30px;margin:0 auto;}
+.big-box .box h1{text-align:center;font-weight:normal;margin-bottom:30px;}
+
+.left{float:left;width:510px;height:470px;background:#FFFFFF;position: relative;}
+.left a{position: relative;}
+.left a img{width:510px;height:266px;display:block}
+.left a span{display: block;width: 510px;height: 266px;background: rgba(255,255,255,0.1);display: none;position: absolute;top:0;transition: all 0.3s;}
+.left a .bf{position: absolute;width: 76px;height: 76px;background-image: url("../img/bf-76.png");left: 8px;top: 180px;opacity: 0.8;}
+.left .comment{text-decoration:none;font-size:13px;width:70px;height:20px;line-height:20px;text-align:center;color:red;border:1px solid;border-radius:99px;display:block;margin:10px 15px 30px 20px;float:left;}
+.left .comment:hover{background:#C60003;color:#FFF;}
+.left .leftime{float:left;color:#A1A1A1;font-size:14px;margin:11px 5px;}
+.left .only{text-align:center;text-decoration:none;font-size:24px;color:#000;margin:0 0 20px 0;display:block}
+.left .only:hover{color:#5996D9}
+.left .text{font-size:17px;color:#333;line-height:28px;margin-left: 20px;}
+.left a{transition: all 0.3s;}
+.left a:hover{transform: scale(1.01)}
+.left a img{transition: all 0.3s;}
+.left a:hover img{transform: scale(1.01)}
+.left a:hover span{display: block;transform: scale(1.01)}
+
+.box-c{float:left;height:470px;width:538px;margin:0 20px;background: #FFFFFF;}
+.box-c .c-pic1{width: 236px;height: 130px;margin:10px 2px 0 10px;float:left;position: relative;}
+.box-c .a1{width:236px;height:130px;}
+.box-c .a1 img{transition: all 0.6s}
+.box-c span{display: block;width: 236px;height: 130px;background: rgba(255,255,255,0.1);position: absolute;top: 0;left: 0;display: none;transition: all 0.6s;}
+.box-c .c-pic1:hover .a1 img{transform: scale(1.02)}
+.box-c .c-pic1:hover .span1{display: block;transform: scale(1.02);cursor: pointer;}
+.box-c .part1{float:left;width:280px;margin:0 5px;margin-top: 10px;}
+.box-c .a2{text-decoration:none;margin:0 5px 10px 0;font-size:18px;color:#000}
+.box-c .a2:hover{color:#5996D9}
+
+.box-c .c-pic2{width: 236px;height: 130px;margin:20px 2px 20px 10px;float:left;position: relative;}
+.box-c .a3{width:236px;height:130px;}
+.box-c .a3 img{transition: all 0.6s}
+.box-c .c-pic2:hover .a3 img{transform: scale(1.02)}
+.box-c .c-pic2:hover .span2{display: block;transform: scale(1.02);cursor: pointer;}
+.box-c .part2{float:left;width:280px;margin:20px 5px;}
+.box-c .a4{text-decoration:none;margin:0 5px 10px 0;font-size:18px;color:#000}
+.box-c .a4:hover{color:#5996D9}
+
+.box-c .c-pic3{width: 236px;height: 130px;margin-right:2px;margin-left: 10px;float:left;position: relative;}
+.box-c .a5{width:236px;height:130px;}
+.box-c .a5 img{transition: all 0.6s}
+.box-c .c-pic3:hover .a5 img{transform: scale(1.02)}
+.box-c .c-pic3:hover .span3{display: block;transform: scale(1.02);cursor: pointer;}
+.box-c .part3{float:left;width:280px;margin:0 5px;}
+.box-c .a6{text-decoration:none;margin:0 5px 10px 0;font-size:18px;color:#000}
+.box-c .a6:hover{color:#5996D9}
+
+.box-c .p1{color:#CCC;font-size:15px;margin:12px 10px;}
+.box-c .p2{color:#999;font-size:15px;margin:2px 10px;}
+
+.box-r{float: left;width: 272px;height: 470px;background: #FFFFFF}
+.box-r .r-pic{widows: 272px;height: 304px;position: relative;}
+.box-r .r-pic a img{transition:all 0.6s;}
+.box-r .r-pic span{display: block;width: 272px;height: 304px;background: rgba(255,255,255,0.1);display: none;position: absolute;top: 0;transition: all 0.6s;cursor: pointer;}
+.box-r .r-pic:hover a img{transform: scale(1.02)}
+.box-r .r-pic:hover span{display: block;transform: scale(1.02)}
+.box-r .text{text-decoration: none;color: #000000;font-size: 18px;margin: 20px 15px 18px 15px;display: block;transition: all 0.5s}
+.box-r .text:hover{color: #5996D9;transform: scale(1.02)}
+.box-r .para{font-size: 16px;margin: 0 20px 30px 20px;line-height: 27px;color: #2E2E2E}
+
+.more a{text-decoration: none;color: #0F0F0F;border: 1px solid #767575;border-radius: 99px;margin: 37px auto;display: block;width: 156px;height: 36px;text-align: center;line-height: 36px;color:#8B8B8B;transition:all 0.5s}
+.more a:hover{color:#FFFFFF;background:rgba(95,127,175,1.00);transform: scale(1.1)}
+
+
